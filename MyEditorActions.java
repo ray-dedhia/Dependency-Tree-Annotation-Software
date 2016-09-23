@@ -305,12 +305,12 @@ public class MyEditorActions extends EditorActions {
 		    group.add(sentenceB);
 		    group.add(nodeB);
 		    
-		    final JLabel picture = new JLabel(new ImageIcon("/home/rheadedhia/Paragraph.png"));
+		   // final JLabel picture = new JLabel(new ImageIcon("/home/Paragraph.png"));
 		    
 		    ActionListener listener = new ActionListener() {
 			    public void actionPerformed(ActionEvent e) {
 			    	String ac = e.getActionCommand();
-			        picture.setIcon(new ImageIcon("/home/rheadedhia/"+ ac +".png"));
+			        //picture.setIcon(new ImageIcon("/home/"+ ac +".png"));
 			    	System.out.println("You selected: " + ac);
 			    	setChoice(e.getActionCommand());
 			    }
